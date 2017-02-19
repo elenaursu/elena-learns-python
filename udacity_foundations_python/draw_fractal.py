@@ -38,7 +38,7 @@ def draw_fractal_level(level, shape, color, fillcolor, length, speed):
     myturtle.fillcolor(fillcolor)
     myturtle.speed(speed)
 
-    # place the fractal's centre of mass at the middle of the screen
+    # place the fractal's centre of mass at the centre of the screen
     x_centre = -math.pow(2, level - 1) * 0.5 * length
     y_centre = -math.pow(2, level - 1) * 0.866 * 1/3 * length
 
